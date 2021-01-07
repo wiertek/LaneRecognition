@@ -14,4 +14,4 @@ Then Canny edge detection algorithm is used and image is cropped to get this:
 Finially, Hough transform is performed, to detect the lines:
 ![source image](https://github.com/wiertek/LaneRecognition/blob/master/photos/samples/houghTransform.jpg "Wrong Lane")
 
-Algorithm evaluates mainly on the angles, look at the source code for more details.
+Algorithm evaluation is based mainly on the angles between edges of the road and x-axis, look at the source code for more details.
